@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "767571621325",
+    "project_id": "poonji-mitra",
+    "storage_bucket": "poonji-mitra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767571621325:android:ee6d651a0ecea8402b8084",
+        "android_client_info": {
+          "package_name": "com.poonjiapp.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767571621325-nuq7b16i5h8qm3jrtph3fl2pohu0k6jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAitJuCHJ28IpXuOUtS9Nj06TmefeVNGkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767571621325-nuq7b16i5h8qm3jrtph3fl2pohu0k6jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
