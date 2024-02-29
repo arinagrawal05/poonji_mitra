@@ -299,9 +299,13 @@ class _FundDetailState extends State<FundDetail> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
-                        data['fundName'],
-                        style: white14RegularTextStyle,
+                      Container(
+                        width: MediaQuery.of(context).size.width * 0.6,
+                        child: Text(
+                          data['fundName'],
+                          overflow: TextOverflow.ellipsis,
+                          style: white14RegularTextStyle,
+                        ),
                       ),
                       ratingStars(widget.rating),
                     ],

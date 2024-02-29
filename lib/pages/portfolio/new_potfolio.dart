@@ -202,8 +202,18 @@ class _NewPortfolioState extends State<NewPortfolio> {
                         ],
                       )
                     : Center(
-                        child: Text("no Data Found",
-                            style: white18MediumTextStyle)),
+                        child: Column(children: [
+                        SizedBox(
+                          height: 220,
+                        ),
+                        Text("No Details Found",
+                            textAlign: TextAlign.center,
+                            style: white18MediumTextStyle),
+                        Text(
+                            "Seems like you don't have any portfolio\nwith us.Invest now and feel\nthe difference.",
+                            textAlign: TextAlign.center,
+                            style: white18MediumTextStyle)
+                      ])),
               ],
             ),
           ),

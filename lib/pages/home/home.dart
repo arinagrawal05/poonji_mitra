@@ -59,9 +59,11 @@ class _NextState extends State<Home> {
       if (investmentAccountId == null ||
           investmentAccountId == "null" ||
           investmentAccountId == "" ||
+          investmentAccountId == "0" ||
           investorId == null ||
           investorId == "null" ||
-          investorId == "") {
+          investorId == "" ||
+          investorId == "0") {
         newShowBoardingCard = true;
         //  =
         //     prefs.setString('isOnboardingComplete') ? false : true;
@@ -778,7 +780,7 @@ class _NextState extends State<Home> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Pooji Suggested - With Best Returns',
+            'Poonji Suggested - With Best Returns',
             style: white16BoldTextStyle,
           ),
           heightSpace,
