@@ -54,9 +54,19 @@ class _NextState extends State<Home> {
       await prefs.setString('token', token);
     }
     var investmentAccountId = prefs.getString('investmentAccountId');
+    var bankAccountId = prefs.getString('bankAccountId');
+    var mandateId = prefs.getString('mandateId');
     var investorId = prefs.getString('investorId');
     setState(() {
-      if (investmentAccountId == null ||
+      if (bankAccountId == null ||
+          bankAccountId == "null" ||
+          bankAccountId == "" ||
+          bankAccountId == "0" ||
+          mandateId == null ||
+          mandateId == "null" ||
+          mandateId == "" ||
+          mandateId == "0" ||
+          investmentAccountId == null ||
           investmentAccountId == "null" ||
           investmentAccountId == "" ||
           investmentAccountId == "0" ||
